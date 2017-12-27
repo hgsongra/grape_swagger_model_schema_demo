@@ -1,24 +1,28 @@
-# README
+# Grape Swagger Model Schema Demo
+This is example rails application with `grape` gem with `swagger` documentation.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Below is the configuration of this application
 
-Things you may want to cover:
+- ``Rails 5.1.4``
+- ``Ruby 2.4.1``
+- ``gem 'grape'``
+- ``gem 'grape-swagger'``
+- ``gem 'grape-swagger-rails'``
+- ``gem 'swagger-blocks'``
+- ``gem 'rack-cors', :require => 'rack/cors'``
 
-* Ruby version
+Clone the app using `https` or `ssh` and do `bundle install`to up and run the application.
 
-* System dependencies
+## References
 
-* Configuration
+* [Grape] - For REST-like APIs in Ruby
+* [Grape Swagger] - Documentation to your grape API
+* [Grape Swagger Rails] - Swagger UI as Rails Engine for grape-swagger gem
+* [Swagger Blocks] - Define and serve live-updating Swagger JSON for Ruby apps (**Model Schema**)
+* [Rack Cors] - Rack Middleware for handling Cross-Origin Resource Sharing (CORS)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Grape]: <https://github.com/ruby-grape/grape>
+[Grape Swagger]: <https://github.com/ruby-grape/grape-swagger>
+[Grape Swagger Rails]: <https://github.com/ruby-grape/grape-swagger-rails>
+[Swagger Blocks]: <https://github.com/fotinakis/swagger-blocks>
+[Rack Cors]: <https://github.com/cyu/rack-cors>
